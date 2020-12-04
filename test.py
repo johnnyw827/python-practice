@@ -21,7 +21,10 @@ print("learn \n\"now\" " + phrase)
 print(phrase.lower())
 print(phrase.upper())
 print(phrase.lower().isupper())
-print(len(phrase))
+#print(len(phrase[3]))
 
+print(phrase.index("e"))
+
+print(phrase.replace("Is", "is not"))
 
 #this is an update
